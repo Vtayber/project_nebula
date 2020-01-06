@@ -1,0 +1,230 @@
+*{
+  box-sizing: border-box;
+}
+body,ul,li,a,p{
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+a:link{
+  color:#d8d8d8;
+}
+a:visited{
+  color:#d8d8d8;
+}
+a:hover{
+  color:white;
+}
+a:active{
+  color:white;
+}
+
+#nav{
+  height: 48px;
+}
+/* body{
+  width: 1200px;
+} */
+
+/* #nav{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  background: rgb(114, 114, 114);
+}
+#nav ul{
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  align-items: center;
+} */
+#nav{
+  background: rgb(160, 160, 160);
+  overflow: hidden;
+  line-height: 48px;
+}
+
+.nav-shop{
+  float: right;
+  margin-right: 20px;
+}
+.navbar-list{
+  margin-right: 30px;
+}
+.navbar-list li{
+  float: right;
+  padding: 0 15px;
+}
+.logo{
+  float: left;
+  font-size: 20px;
+  color: azure;
+  padding-left: 10px;
+}
+.nav-shop img{
+  margin-top: 12px;
+  width: auto;
+  height: 24px;
+  color: black;
+}
+
+#banner img{
+  width:100%;
+}
+#service img{
+  width: 80%;
+}
+#service{
+  text-align: center;
+}
+#service>:first-child{
+  font-size: 16px;
+  color: #999999;
+  text-align: center;
+  margin:8px;
+  letter-spacing: 2px;
+}
+#service article{
+  text-align: left;
+  padding: 10px 30px;
+  color: #292929;
+  font-size: 16px;
+}
+.service-items{
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+/* .service-items *{
+  text-align: center;
+} */
+#dynamic{
+  padding: 20px 0 20px 0;
+}
+#dynamic>:first-child{
+  overflow: hidden;
+}
+#dynamic>:first-child>:first-child{
+  float: left;
+  text-align: right;
+  border-right: 1px solid #999999;
+}
+#dynamic>:first-child>:nth-child(2){
+  float: right;
+  text-align: left;
+}
+#dynamic span{
+  font-size: 14px;
+  padding: 0 10px;
+  color: #999999;
+}
+.dynamic-content{
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.dynamic-content a:link{
+  color: orangered;
+}
+.dynamic-content a:visited{
+  color: orangered;
+}
+.dynamic-content a:hover{
+  color: orangered;
+}
+.dynamic-content a:active{
+  color: orangered;
+}
+
+.dynamic-content span{
+  float: right;
+}
+.dynamic-content>:first-child{
+  width: 49%;
+  background: #d8d8d8;
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+}
+.dynamic-content>:nth-child(2){
+  width: 49%;
+  background: #d8d8d8;
+  border-radius: 10px 10px 10px 10px;
+  float: right;
+}
+
+.cooperation{
+  background: #d8d8d8;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
+
+@media only screen and (max-width:480px){
+  .col-xs-1{width:8.33%;}
+  .col-xs-2{width:16.66%;}
+  .col-xs-3{width:25%;}
+  .col-xs-4{width:33.33%;}
+  .col-xs-5{width:41.66%;}
+  .col-xs-6{width:50%;}
+  .col-xs-7{width:58.33%;}
+  .col-xs-8{width:66.66%;}
+  .col-xs-9{width:75%;}
+  .col-xs-10{width:83.33%;}
+  .col-xs-11{width:91.66%;}
+  .col-xs-12{width:100%;}
+  .col-s-display{display: none;}
+}
+@media only screen and (max-width:768px) and (min-width:480px){
+  .col-s-1{width:8.33%;}
+  .col-s-2{width:16.66%;}
+  .col-s-3{width:25%;}
+  .col-s-4{width:33.33%;}
+  .col-s-5{width:41.66%;}
+  .col-s-6{width:50%;}
+  .col-s-7{width:58.33%;}
+  .col-s-8{width:66.66%;}
+  .col-s-9{width:75%;}
+  .col-s-10{width:83.33%;}
+  .col-s-11{width:91.66%;}
+  .col-s-12{width:100%;}
+  .col-s-display{display: none;}
+}
+
+/* @media only screen and (max-width:768px){
+  .col-s-1{width:8.33%;}
+  .col-s-2{width:16.66%;}
+  .col-s-3{width:25%;}
+  .col-s-4{width:33.33%;}
+  .col-s-5{width:41.66%;}
+  .col-s-6{width:50%;}
+  .col-s-7{width:58.33%;}
+  .col-s-8{width:66.66%;}
+  .col-s-9{width:75%;}
+  .col-s-10{width:83.33%;}
+  .col-s-11{width:91.66%;}
+  .col-s-12{width:100%;}
+  .col-s-display{display: none;}
+} */
+@media only screen and (min-width:768px){
+  .col-1{width:8.33%;}
+  .col-2{width:16.66%;}
+  .col-3{width:25%;}
+  .col-4{width:33.33%;}
+  .col-5{width:41.66%;}
+  .col-6{width:50%;}
+  .col-7{width:58.33%;}
+  .col-8{width:66.66%;}
+  .col-9{width:75%;}
+  .col-10{width:83.33%;}
+  .col-11{width:91.66%;}
+  .col-12{width:100%;}
+}
